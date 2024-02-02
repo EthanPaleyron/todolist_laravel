@@ -47,6 +47,9 @@
                         @endforeach
                         </tbody>
                     </table>
+                    <footer class="card-footer is-centered">
+                        {{ $tasks->links() }}
+                    </footer>
                 </div>
             </div>
         </div>
